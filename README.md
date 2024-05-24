@@ -1,1 +1,1 @@
-# SI_2024_lab2_226089
+# Marko Ivanovski 226089
