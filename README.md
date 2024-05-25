@@ -7,3 +7,21 @@
 ## Тест случаи според Every Branch критериумот
 ![Graph](https://github.com/Marko-Ivanovski/SI_2024_lab2_226089/blob/master/TestCases1.png)
 ### Објаснување
+Доволно се 5 тест примери за да се поминат сите  гранки:
+<ol>
+  <li>
+    <b>allItems = null</b> - Листата е null и враќа <b>RuntimeException("allItems list can't be null!")</b>.
+  </li>
+  <li>
+    
+  </li>
+  <li>
+    
+  </li>
+  <li>
+    
+  </li>
+  <li>
+    
+  </li>
+</ol>
