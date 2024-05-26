@@ -1,6 +1,6 @@
 # Марко Ивановски 226089
 
-## Control Flow Graphh
+## Control Flow Graph
 ![Graph](https://github.com/Marko-Ivanovski/SI_2024_lab2_226089/blob/master/Graph.png)
 ## Цикломатска комплексност
 Цикломатската комплексност може да се пресмета користејки ја формулата <b>P + 1</b>, каде што <b>P</b> е бројот на предикатни јазли <b>+ 1</b>. Овој код има 9 предикатни јазли и со формулата <b>9 + 1 = 10</b>.
@@ -25,8 +25,10 @@
     <p><b>List<Item> items = Arrays.asList(new Item("item1", "012345", 350, 0.1));</b> - Валидно внесени податоци, со баркод што почнува со 0 и има попуст(discount), за да исполнува условот <b>if(item.getPrice() > 300 && item.getDiscount() > 0 && item.getBarcode().charAt(0) == '0')</b>. Враќа <b>false</b>.</p>
   </li>
 </ol>
+      
 ## Тест случаи според Multiple Condition критериумот
 ![Graph]()
+### Објаснување
 Потребни се 8 тест примери:
 <ol>
   <li>
