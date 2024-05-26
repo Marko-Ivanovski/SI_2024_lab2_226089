@@ -10,13 +10,13 @@
 Доволно се 5 тест примери за да се поминат сите  гранки:
 <ol>
   <li>
-    <b>allItems = null</b> - Листата е null и враќа <b>RuntimeException("allItems list can't be null!")</b>.
+    <p><b>allItems = null</b> - Листата е null и враќа <b>RuntimeException("allItems list can't be null!")</b>.</p>
   </li>
   <li>
-    
+    <p><b>List<Item> items = Arrays.asList(new Item("", null, 100, 0));</b> - Името е празно и се пополнува со "unknown", и нема баркод затоа враќа <b>RuntimeException("No barcode!")</b>
   </li>
   <li>
-    
+    <p><b>List<Item> items = Arrays.asList(new Item("item1", "abc123", 100, 0));</b> - Невалиден формат за бракодот, враќа <b>RuntimeException("Invalid character in item barcode!")</b></p>
   </li>
   <li>
     
