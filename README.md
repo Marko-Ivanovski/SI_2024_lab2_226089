@@ -19,9 +19,9 @@
     <p><b>List<Item> items = Arrays.asList(new Item("item1", "abc123", 100, 0));</b> - Невалиден формат за бракодот, враќа <b>RuntimeException("Invalid character in item barcode!")</b></p>
   </li>
   <li>
-    
+    <p><b>List<Item> items = Arrays.asList(new Item("item1", "123456", 100, 0));</b> - Валидно внесени податоци, но без попуст(discount), враќа <b>true</b></p>
   </li>
   <li>
-    
+    <p><b>List<Item> items = Arrays.asList(new Item("item1", "012345", 350, 0.1));</b> - Валидно внесени податоци, со баркод што почнува со 0 и има попуст(discount), за да исполнува условот <b>if(item.getPrice() > 300 && item.getDiscount() > 0 && item.getBarcode().charAt(0) == '0')</b>. Враќа <b>false</b></p>
   </li>
 </ol>
