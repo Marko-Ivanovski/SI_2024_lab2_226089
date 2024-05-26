@@ -27,7 +27,7 @@
 </ol>
       
 ## Тест случаи според Multiple Condition критериумот
-![Graph]()
+![Graph](https://github.com/Marko-Ivanovski/SI_2024_lab2_226089/blob/master/TestCases2.png)
 ### Објаснување
 Потребни се 8 тест примери:
 <ol>
